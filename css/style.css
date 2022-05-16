@@ -1,6 +1,6 @@
 :root {
   box-sizing: border-box;
-  --maincolor: #2dd4bf;
+  --maincolor: #fbbf24;
 }
 
 body {
@@ -28,9 +28,6 @@ body {
   color: white;
 }
 
-img {
-  color: white;
-}
 /* ---------------------------------- */
 
 /* Header section */

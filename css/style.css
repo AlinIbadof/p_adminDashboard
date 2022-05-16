@@ -225,6 +225,7 @@ body {
 .announcements {
   display: grid;
   grid-template-rows: 0.5fr;
+  margin-bottom: -10%;
 }
 
 .announcementstitle {

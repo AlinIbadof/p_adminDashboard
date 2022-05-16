@@ -195,15 +195,15 @@ body {
 
 .announcements {
   display: grid;
-  grid-template-rows: auto repeat(auto-fit, 1fr);
+  grid-template-rows: 0.5fr repeat(aut-fit, 1fr);
 }
 
 .announcementstitle {
   align-self: end;
   margin-left: 5%;
-  margin-bottom: 1%;
   font-size: 1.3rem;
   font-weight: 600;
+  margin-bottom: 2%;
 }
 
 .announces {
@@ -211,11 +211,14 @@ body {
   background-color: white;
   border-radius: 10px;
   padding: 5%;
+  padding-bottom: 10%;
   width: 80%;
-  align-self: center;
+  align-self: start;
   gap: 5%;
 }
-
+.announce {
+  padding: 5px 0 5px 0;
+}
 .announcetitle {
   font-weight: 600;
 }

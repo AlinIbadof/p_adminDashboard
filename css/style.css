@@ -122,6 +122,15 @@ body {
   width: 75px;
 }
 
+.hellomsg {
+  font-size: 1rem;
+}
+
+.username {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
 .navbuttons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25px, 75px));
@@ -182,5 +191,37 @@ body {
 
 .cardtitle {
   font-weight: 900;
+}
+
+.announcements {
+  display: grid;
+  grid-template-rows: auto repeat(auto-fit, 1fr);
+}
+
+.announcementstitle {
+  align-self: end;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.announces {
+  display: grid;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  width: 80%;
+  align-self: center;
+  gap: 5%;
+}
+
+.announcetitle {
+  font-weight: 600;
+}
+
+.announce.bordered {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 /* ---------------------------------- */

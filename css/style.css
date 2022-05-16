@@ -63,7 +63,15 @@ body {
 
 .sidebar p {
   color: white;
-  font-weight: 900;
+  font-weight: 800;
+}
+.sidebar p button {
+  background-color: var(--maincolor);
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: 1.15rem;
+  padding: 0;
 }
 
 /* ---------------------------------- */
@@ -278,3 +286,33 @@ body {
   gap: 5%;
 }
 /* ---------------------------------- */
+
+/* Button Hover Animation */
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+p button:hover span {
+  font-size: 1.3rem;
+}

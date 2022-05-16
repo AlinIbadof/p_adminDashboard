@@ -2,7 +2,7 @@
   box-sizing: border-box;
   --maincolor: #fbbf24;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 body {
@@ -11,7 +11,13 @@ body {
 }
 
 .text {
-  opacity: 0.9;
+  opacity: 0.4;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: white;
 }
 
 /* Whole container */
@@ -63,13 +69,11 @@ body {
 
 .sidebar p {
   color: white;
-  font-weight: 800;
 }
 .sidebar p button {
   background-color: var(--maincolor);
   border: none;
   color: white;
-  font-weight: 800;
   font-size: 1.15rem;
   padding: 0;
 }
